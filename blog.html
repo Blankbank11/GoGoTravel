@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GoGo Travel Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                   Go<span>Go</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">ໜ້າຫຼັກ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">ຮູບພາບ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">ເນື້ອຫາ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">ກ່ຽວກັບ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">ຕິດຕໍ່</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>ເນື້ອຫາ</h1>
+                    <p> ໃນທຸກມື້ເຮົາພ້ອມຈະມອບຂໍ້ມູນເຊິ່ງອໍານວຍຄວາມສະດວກຕ່າງໆໃຫ້ແກ່ທ່ານໃນການເດີນທາງແລະບົດຄວາມດ້ານການທ່ອງທ່ຽວທີ່ມີເນື້ອໃນແປກໃໝ່.</p>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- blog section -->
+        <section id = "blog" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <h2 class = "sm-title">ບົດຄວາມເພື່ອຊີ້ນໍາການເດີນທາງຂອງທ່ານ</h2>
+                    <h3 class = "lg-title">ບົດຄວາມລ່າສຸດ</h3>
+                </div>
+
+                <div class = "blog-row">
+                      <div class = "blog-item my-2 shadow"> 
+                        <div class = "blog-item-top">
+                 <img src = "images/blog-1.jpg" alt = "blog">  
+                            <span class = "blog-date">30 ມັງກອນ 2021</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>ທ່ອງທ່ຽວ | ໂຕແຫຼ້</span>
+                            <a href = "blog1.html">5 ສະຖານທີ່ທ່ອງທ່ຽວຍອດຮິດໃນນະຄອນຫຼວງວຽງຈັນ</a>
+                            <p class = "text">ນະຄອນຫຼວງວຽງຈັນເປັນສູນການດ້ານຕ່າງໆຂອງປະເທດບໍ່ວ່າຈະເປັນເສດຖະກິດສັງຄົມ, ວັດທະນະທໍາ,ຮີດຄອງປະເພນີ,ປະຫວັດສາດ,ການປົກຄອງລວມໄປເຖິງການທ່ອງທ່ຽວ...</p> 
+                            <a href = "blog1.html">   <span class="read-more"> ອ່ານເພີ່ມເຕີມ</span> </a>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-2.jpg" alt = "blog">
+                            <span class = "blog-date">11 ພະຈິກ 2021</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>ທ່ອງທ່ຽວ | ໂຕແຫຼ້</span>
+                            <a href = "blog2.html"> ສະຖານທີ່ທ່ອງທ່ຽວຢູ່ຫຼວງພະບາງທີ່ທ່ານບໍ່ຄວນພາດ</a>
+                            <p class = "text">ຫຼວງພະບາງເປັນເມືອງທີ່ເກົ່າແກ່ທີ່ສຸດແລະເປັນນະຄອນຫຼວງເກົ່າໃນສະໄໝລ້ານຊ້າງ ໂດຍມີຮ່ອງຮອຍປະຫວັດສາດທີ່ສໍາຄັນທີ່ຍັງບໍ່ຈາງຫາຍ, ມີວັດວາອາຮາມທີ່ເກົ່າແກ່ ລວມທັງວິຖີການດໍາລົງຊີວິດຂອງປະຊາຊົນບັນດາເຜົ່າ...</p>
+                            <a href = "blog2.html">    <span class="read-more"> ອ່ານເພີ່ມເຕີມ</span> </a>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-3.jpg" alt = "blog">
+                            <span class = "blog-date">23 ພຶດສະພາ 2021</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>ທ່ອງທ່ຽວ | ໂຕແຫຼ້</span>
+                            <a href = "blog3.html"> ສະຖານທີ່ທ່ອງທ່ຽວຍອດຮິດໃນວັງວຽງທີ່ທ່ານບໍ່ຄວນພາດ</a>
+                            <p class = "text">ວັງວຽງເປັນຈຸດໝາຍຍອດນິຍົມຂອງນັກທ່ອງທ່ຽວຈາກທຸກພາກສ່ວນ ດ້ວຍທໍາມະຊາດທີ່ສວຍສົດງົດງາມ, ບັນຍາກາດດີ, ຕົວເມືອງຕ່າງໆທີ່ເປັນເອກະລັກບວກກັບມີສິ່ງອໍານວຍຄວາມສະດວກຕ່າງໆ...
+                            </p>
+                            <a href = "blog3.html">      <span class="read-more"> ອ່ານເພີ່ມເຕີມ</span> </a>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-4.jpg" alt = "blog">
+                            <span class = "blog-date">12 ມິຖຸນາ 2021</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>ທ່ອງທ່ຽວ | ໂຕແຫຼ້</span>
+                            <a href = "blog4.html">ອາຫານລາວທີ່ທ່ານບໍ່ຄວນພາດ</a>
+                            <p class = "text">ນອກຈາກເລື່ອງສະຖານທີ່ທ່ຽວແລ້ວ ປະເທດລາວເຮົາຍັງຂຶ້ນຊື່ເລື່ອງອາຫານການກິນທີ່ເປັນເອກະລັກແລະເປັນພູມປັນຍາຊາວບ້ານທີ່ຕົກທອດກັນມາຫຼາຍຮ້ອຍຫຼາຍພັນປີ. ປະຊາຊົນລາວເຮົາມັກແຕ່ງກິນດ້ວຍຕົນເອງ...
+                            </p>
+                            <a href = "blog4.html">     <span class="read-more"> ອ່ານເພີ່ມເຕີມ</span> </a>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-5.jpg" alt = "blog">
+                            <span class = "blog-date">29 ຕຸລາ 2021</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>ທ່ອງທ່ຽວ | ໂຕແຫຼ້</span>
+                            <a href = "blog5.html">ສະຖານທີ່ທ່ອງທ່ຽວຍອດນິຍົມຢູ່ແຂວງຈໍາປາສັກ</a>
+                            <p class = "text">ຈໍາປາສັກເປັນແຂວງໜຶ່ງທີ່ຕັ້ງຢູ່ທາງພາກໃຕ້ຂອງລາວ ເຊິ່ງມີສະຖານທີ່ທ່ອງທ່ຽວຫຼາຍບ່ອນທີ່ເປັນຈຸດໝາຍຂອງນັກທ່ອງທ່ຽວບໍ່ວ່າຈະເປັນ ວັດພູຈໍາປາສັກ,ນໍ້າຕົກຕາດຄອນພະເພັງ,ຕາດຟານ...
+                            </p>
+                            <a href = "blog5.html" >    <span class="read-more"> ອ່ານເພີ່ມເຕີມ</span> </a>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-6.jpg" alt = "blog">
+                            <span class = "blog-date">2 ທັນວາ 2021</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>ທ່ອງທ່ຽວ | ໂຕແຫຼ້</span>
+                            <a href = "blog6.html">ສະຖານທີ່ທ່ອງທ່ຽວດ້ານປະຫວັດສາດຢູ່ລາວ</a>
+                            <p class = "text">ປະເທດລາວມີປະຫວັດສາດອັນຍາວນານນັບຕັ້ງແຕ່ສະໄໝອານາຈັກລາວລ້ານຊ້າງຈົນມາເຖິງສະໄໝທີ່ປະເທດລາວເຮົາໄດ້ຮັບການສະຖາປະນາຂຶ້ນ. ດ້ວຍປະຫວັດສາດອັນຍາວນານ ຈຶ່ງເຮັດໃຫ້ມີສະຖານທີ່ທ່ອງທ່ຽວດ້ານປະຫວັດສາດກະແຈກກະຈາຍ...
+                            </p>
+                            <a href = "blog6.html">     <span class="read-more"> ອ່ານເພີ່ມເຕີມ</span> </a>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-7.jpg" alt = "blog">
+                            <span class = "blog-date">12 ກຸມພາ 2021</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>ທ່ອງທ່ຽວ | ໂຕແຫຼ້</span>
+                            <a href = "#">10 ເຫດຜົນທີ່ທ່ານຄວນລອງໄປທ່ຽວໂດຍບໍ່ຕ້ອງວາງແຜນ</a>
+                            <p class = "text">ການເຮັດຫຍັງບາງຢ່າງກໍລ້ວນແຕ່ຕ້ອງວາງແຜນກ່ອນເພື່ອທີ່ຈະເຮັດມັນໄດ້ຢ່າງມີຄວາມຮອບຄອບ ແຕ່ສໍາລັບການທ່ອງທ່ຽວຫຼາຍຄົນກໍບໍ່ວາງແຜນເລີຍກ່ອນຈະອອກເດີນທາງເພາະຢາກຫາຄວາມທ້າທາຍໃໝ່ໆ,ສັນຫາປະສົບການໃໝ່ໆ ພ້ອມທັງມີບັນຫາເກີດຂຶ້ນເຮົາອາດຈະໄດ້ແກ້ໄຂມັນດ້ວຍວິທີທີ່ເຮົາບໍ່ເຄີຍໃຊ້ມາກ່ອນກໍໄດ້.</p>
+                            <span class="read-more"> ອ່ານເພີ່ມເຕີມ</span>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-8.jpg" alt = "blog">
+                            <span class = "blog-date">28 ຕຸລາ 2021</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>ທ່ອງທ່ຽວ | ໂຕແຫຼ້</span>
+                            <a href = "#">10 ເຫດຜົນທີ່ທ່ານຄວນລອງໄປທ່ຽວຄົນດຽວ</a>
+                            <p class = "text">ຫຼາຍຄົນຄິດວ່າການໄປທ່ຽວຫຼາຍຄົນມ່ວນທີ່ສຸດແລ້ວເພາະຈະເຮັດໃຫ້ເຮົາບໍ່ເຫງົາ,ມີໝູ່ຄອຍລົມນໍາແລະເຮັດກິດຈະກໍາຕ່າງໆນໍາກັນ. ຫຼາຍຄົນກໍມັກຄິດວ່າ ການໄປທ່ຽວຄົນດຽວນັ້ນເປັນສິ່ງທີ່ເຫງົາທີ່ສຸດໃນສາມໂລກແລະທ້າທາຍທີ່ສຸດເພາະຕ້ອງເຮັດຫຍັງຄົນດຽວ,ໄປນັ້ນນີ້,ດໍາເນີນກິດຈະກໍາຕ່າງໆດ້ວຍຕົວຄົນດຽວ.</p>
+                            <span class="read-more"> ອ່ານເພີ່ມເຕີມ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of blog section -->
+        
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Go<span>Go</span>
+                    </a>
+                    <p class = "text">ພວກເຮົາແມ່ນເວັບໄຊການທ່ອງທ່ຽວເຊິ່ງໃຫ້ຂໍ້ມູນຕ່າງໆດ້ານ &nbspການທ່ອງທ່ຽວໃນປະເທດລາວບໍ່ຈະເປັນແນະນໍາກ່ຽວກັບສະຖານທີ່ທ່ອງທ່ຽວ,ອາຫານຂຶ້ນຊື່ຕາມແຕ່ລະທ້ອງຖິ່ນລວມໄປເຖິງຂໍ້ມູນການເດີນທາງດ້ານອື່ນໆອີກ.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>ຕິດຕາມພວກເຮົາໄດ້ທີ່: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>ສະຖານທີ່ຍອດນິຍົມ:</h2>
+                    <ul>
+                        <li><a href = "#">ວັງວຽງ</a></li>
+                        <li><a href = "#">ຫຼວງພະບາງ</a></li>
+                        <li><a href = "#">ນະຄອນຫຼວງວຽງຈັນ</a></li>
+                        <li><a href = "#">ຈໍາປາສັກ</a></li>
+                        <li><a href = "#">ອຸດົມໄຊ</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>ຕິດຕາມເຮົາເພື່ອຮັບຂ່າວສານຕ່າງໆ!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="ອີເມວ" class = "form-control">
+                        <input type = "submit" class = "btn" value = "ຕິດຕາມ">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            
+        </script>
+    </body>
+</html>

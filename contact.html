@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GoGo Travel Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                   Go<span>Go</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">ໜ້າຫຼັກ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">ຮູບພາບ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">ເນື້ອຫາ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">ກ່ຽວກັບ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">ຕິດຕໍ່</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>ຕິດຕໍ່</h1>
+                    <p>ເພື່ອໃຫ້ທ່ານມີຄວາມສະດວກໃນການຕິດຕໍ່ພວກເຮົາຫຼາຍຂຶ້ນ ພວກເຮົາໄດ້ມີຊ່ອງທາງການຕິດຕໍ່ຢູ່ຫຼາຍຊ່ອງທາງດ້ວຍກັນ.</p>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- contact section -->
+        <section id = "contact" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">ໃກ້ຊິດກັບພວກເຮົາຫຼາຍຂຶ້ນ</span>
+                    <h2 class = "lg-title">ຕິດຕໍ່ພວກເຮົາ</h2>
+                </div>
+
+                <div class = "contact-row">
+                    <div class = "contact-left">
+                        <form class = "contact-form">
+                            <input type = "text" class = "form-control" placeholder="ຊື່">
+                            <input type = "email" class = "form-control" placeholder="ອີເມວ">
+                            <textarea rows = "4" class = "form-control" placeholder="ຂໍ້ຄວາມ" style = "resize: none;"></textarea>
+                            <input type = "submit" class = "btn" value = "ສົ່ງຂໍ້ຄວາມ">
+                        </form>
+                    </div>
+                    <div class = "contact-right my-2">
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-phone-alt"></i>
+                            </span>
+                            <div>
+                                <span>ເບີໂທ</span>
+                                <p class = "text">+8562055555555</p>
+                            </div>
+                        </div>
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-map-marked-alt"></i>
+                            </span>
+                            <div>
+                                <span>ທີ່ຕັ້ງ</span>
+                                <p class = "text">ບ້ານດອນກອຍ, ເມືອງສີສັດຕະນາກ, ນຄຫຼ</p>
+                            </div>
+                        </div>
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-envelope"></i>
+                            </span>
+                            <div>
+                                <span>ອີເມວ</span>
+                                <p class = "text">gogolaos@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+        
+
+        <div class = "map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.8386187831497!2d102.62183721487001!3d17.939679487749885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3124661fa3be608d%3A0x1033c20d059359d0!2z4LqE4Lqw4LqZ4Lqw4Lqn4Lq04Lqq4Lqw4Lqn4Lqw4LqB4Lqz4Lqq4Lqy4LqUIOC6oeC6sOC6q-C6suC6p-C6tOC6l-C6sOC6jeC6suC7hOC6peC7geC6q-C7iOC6h-C6iuC6suC6lA!5e0!3m2!1slo!2sla!4v1638454987000!5m2!1slo!2sla" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Go<span>Go</span>
+                    </a>
+                    <p class = "text">ພວກເຮົາແມ່ນເວັບໄຊການທ່ອງທ່ຽວເຊິ່ງໃຫ້ຂໍ້ມູນຕ່າງໆດ້ານ &nbspການທ່ອງທ່ຽວໃນປະເທດລາວບໍ່ຈະເປັນແນະນໍາກ່ຽວກັບສະຖານທີ່ທ່ອງທ່ຽວ,ອາຫານຂຶ້ນຊື່ຕາມແຕ່ລະທ້ອງຖິ່ນລວມໄປເຖິງຂໍ້ມູນການເດີນທາງດ້ານອື່ນໆອີກ.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>ຕິດຕາມພວກເຮົາໄດ້ທີ່: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>ສະຖານທີ່ຍອດນິຍົມ:</h2>
+                    <ul>
+                        <li><a href = "#">ວັງວຽງ</a></li>
+                        <li><a href = "#">ຫຼວງພະບາງ</a></li>
+                        <li><a href = "#">ນະຄອນຫຼວງວຽງຈັນ</a></li>
+                        <li><a href = "#">ຈໍາປາສັກ</a></li>
+                        <li><a href = "#">ອຸດົມໄຊ</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>ຕິດຕາມເຮົາເພື່ອຮັບຂ່າວສານຕ່າງໆ!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="ອີເມວ" class = "form-control">
+                        <input type = "submit" class = "btn" value = "ຕິດຕາມ">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            
+        </script>
+    </body>
+</html>

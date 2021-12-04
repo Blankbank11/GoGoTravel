@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GoGo Travel Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Go<span>Go</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">ໜ້າຫຼັກ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">ຮູບພາບ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">ເນື້ອຫາ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">ກ່ຽວກັບ</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">ຕິດຕໍ່</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>ຄວາມມະຫັດສະຈັນທີ່ບໍ່ມີໃຜເໝືອນ</h1>
+                    <p> ປະເທດລາວມີຄວາມອຸດົມສົມບູນ,ຊັບພະຍາກອນທໍາມະຊາດຊັບໃນດິນສິນໃນນໍ້າ,ສະຖານທີ່ປະຫວັດສາດ. ນອກຈາກນີ້, ຄົນລາວຍັງມີນໍ້າໃຈເອື້ອເຝື່ອເພື່ອແຜ່,ໂອບເອື້ອອາລີ ເຊິ່ງເປັນມົນສະເໜ່ທີ່ບໍ່ມີປະເທດໃດເໝືອນ.
+                    </p>
+                </div>
+                <div class = "header-form">
+                    <h2>ເລືອກຈຸດໝາຍປາຍທາງຂອງທ່ານ:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="ຊື່ຈຸດໝາຍ">
+                        <input type="date" class = "form-control" placeholder="ວັນທີ່">
+                        <input type="number" class = "form-control" placeholder="ງົບປະມານ (ກີບ)">
+                        <input type="submit" class = "btn" value = "ຄົ້ນຫາ">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">ຮູ້ຈັກບາງບ່ອນກ່ອນທີ່ທ່ານຈະຕັດສິນໃຈອອກເດີນທາງ</span>
+                    <h2 class = "lg-title">ສະຖານທີ່ທ່ອງທ່ຽວທີ່ແນະນໍາ</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img1.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                ວັງວຽງ, ແຂວງວຽງຈັນ
+                            </span>
+                            <div>
+                                <p class = "text">ວັງວຽງເປັນຈຸດໝາຍຍອດນິຍົມຂອງນັກທ່ອງທ່ຽວຈາກທຸກພາກ &nbsp ສ່ວນດ້ວຍທໍາມະຊາດທີ່ສວຍສົດງົດງາມ, ຕົວເມືອງທີ່ເປັນເອກະລັກບວກກັບມີສິ່ງອໍານວຍຄວາມສະດວກຈຶ່ງເຮັດໃຫ້&nbsp  ວັງວຽງເປັນບ່ອນທ່ຽວຍອດຮິດຂອງໃຜຫຼາຍໆຄົນ.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img2.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                ນໍ້າກັດຢໍລະປາ, ອຸດົມໄຊ
+                            </span>
+                            <div>
+                                <p class = "text"> ນໍ້າກັດຢໍລະປາຕັ້ງຢູ່ເຂດເມືອງໄຊ,ແຂວງອຸດົມໄຊເຊິ່ງເປັນສະຖານທີ່ທ່ອງທ່ຽວແຫ່ງໃໝ່ທີ່ດຶງດູດຄວາມສົນໃຈຂອງນັກທ່ອງທ່ຽວທັງພາຍໃນແລະຕ່າງປະເທດ.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img3.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                ວັດພູ, ແຂວງຈໍາປາສັກ
+                            </span>
+                            <div>
+                                <p class = "text">ວັດພູເປັນບູຮານສະຖານວັດຖຸ ຕັ້ງຢູ່ພາກໃຕ້ຂອງລາວ ທີ່ແຂວງຈຳປາສັກຊຶ່ງເປັນແຂວງທີ່ມີຊາຍແດນຕິດກັບປະເທດກຳປູເຈຍຫ່າງຈາກ &nbsp ອັງກໍວັດປະມານ 200 ກິໂລແມັດ ແລະ ປະມານ 1 ຊົ່ວໂມງໄປທາງລົດ &nbsp ຈາກປາກເຊ.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img4.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                ປະຕູໄຊ, ນະຄອນຫຼວງວຽງຈັນ
+                            </span>
+                            <div>
+                                <p class = "text">ປະຕູໄຊ ຫລື ອານຸສາວະລີ ເປັນສະຖານທີ່ງົດງາມແມ່ນສິ່ງກໍສ້າງ ເພື່ອເປັນອານຸສອນ ແກ່ການປະກາດເອກກະລາດຈາກການປົກຄອງຂອງປະເທດຝຣັ່ງ. ຮູບຊົງແມ່ນຮຽນແບບປະຕູໄຊ &nbsp ເມືອງປາຣີ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img5.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                ນໍ້າຕົກຕາດກວາງຊີ, ແຂວງຫຼວງພະບາງ
+                            </span>
+                            <div>
+                                <p class = "text"> ນ້ຳຕົກຕາດກວາງຊີແມ່ນນ້ຳຕົກຕາດໜຶ່ງທີ່ສວຍງາມທີ່ສຸດໃນແຂວງຫລວງພະບາງ,ເປັນນ້ຳຕົກຫີນປູນຂະໜາດໃຫຍ່ສູງປະມານ 70 ແມັດມີສາຍນ້ຳໄຫລອາບມາຕາມໜ້າຜາຜ່ານໂຂດຫີນນ້ອຍໃຫຍ່.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img6.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                               ນໍ້າຕົກຕາດຄອນພະເພັງ, ແຂວງຈໍາປາສັກ
+                            </span>
+                            <div>
+                                <p class = "text">ນໍ້າຕົກຕາດຄອນພະເພັງແມ່ນໜື່ງໃນບັນດາສະຖານທີ່ນໍ້າຕົກຕາດທີ່ກວ້າງໃຫຍ່ທີ່ສຸດແລະມີແມ່ນໍ້າຂອງໄຫຼຜ່ານເປັນບໍລິເວນກວ້າງເຖິງ 14 ກິໂລແມັດ. ມີນໍ້າຕົກທີ່ສູງແລະແຮງທີ່ໜ້າປະທັບ &nbsp ໃຈທີ່ສຸດໂດຍສະເພາະໃນລະດູຝົນ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">ສິ່ງທີ່ເຮົາຈະມອບໃຫ້ທ່ານ</span>
+                    <h2 class = "lg-title">ການບໍລິການຂອງພວກເຮົາ</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class="far fa-grin-stars"></i>
+                        </span>
+                        <h3>ແຮງບັນດານໃຈໃໝ່ໆ</h3>
+                        <p class = "text">ເວັບໄຊຂອງເຮົາຈະມອບແຮງບັນດານໃຈແນວຄິດອັນແປກໃໝ່ດ້ານການທ່ອງທ່ຽວໃຫ້ແກ່ທ່ານແບບທີ່ທ່ານບໍ່ສາມາດຫາໄດ້ຢູ່ບ່ອນໃດອີກແລ້ວ.</p>
+                        <a href = "#" class = "btn">ອ່ານເພີ່ມເຕີມ</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>ແນະນໍາສະຖານທີ່ທ່ຽວ</h3>
+                        <p class = "text">ບໍ່ວ່າທ່ານຈະຕ້ອງການໄປທ່ຽວໃສຕັ້ງແຕ່ເໜືອຮອດໃຕ້ ເຮົາມີຂໍ້ມູນທີ່ທ່ານຕ້ອງການແນ່ນອນ. ພວກເຮົາຈະມອບຄວາມຮູ້ສຶກໃນການເດີນທາງຂອງທ່ານນັ້ນພິເສດຂຶ້ນໄປອີກ.</p>
+                        <a href = "#" class = "btn">ອ່ານເພີ່ມເຕີມ</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+    
+                            <i class="fas fa-snowboarding"></i>
+                        </span>
+                        <h3>ປະສົບການອັນແສນຕື່ນເຕັ້ນ</h3>
+                        <p class = "text"> ເວັບໄຊພວກເຮົາຈະຊ່ວຍເຕີມເຕັມປະສົບການອັນທ້າທາຍເຕັມໄປດ້ວຍຄວາມຕື່ນເຕັ້ນໃຫ້ແກ່ທ່ານ. ພວກເຮົາພ້ອມແລ້ວທີ່ຈະມອບປະສົບການສຸດວິເສດນັ້ນໃຫ້ແກ່ທ່ານ.</p>
+                        <a href = "#" class = "btn">ອ່ານເພີ່ມເຕີມ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">ຄໍາຄິດເຫັນຈາກຜູ້ໃຊ້</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text"> ແຕ່ກ່ອນຂ້ອຍຕ້ອງພົບບັນຫາທຸກຄັ້ງເມື່ອຕ້ອງການໄປທ່ຽວເພາະບໍ່ມີຂໍ້ມູນພຽງພໍ. ແຕ່ດຽວນີ້ບັນຫາເຫຼົ່ານັ້ນມັນໝົດໄປແລ້ວ ຕັ້ງແຕ່ຂ້ອຍໄດ້ຮູ້ຈັກກັບເວັບໄຊນີ້. ບໍ່ວ່າຈະເດີນທາງໄປໃສ ໃກ້ຫຼືໄກ ທຸລະກັນດານຫຼືໃນຕົວເມືອງ ເວັບໄຊນີ້ມີຂໍ້ມູນຄົບທຸກຢ່າງ. ມັນສຸດຍອດໄປເລີຍ!.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>ອ້າຍທັດສະພອນ ຫຼວງໄຊຊະນະ</h3>
+                                <p class = "text">ຫົວໜ້າບໍລິສັດເບຍລາວ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">ຂ້າພະເຈົ້າຮູ້ໂຊກດີຫຼາຍທີ່ໄດ້ຮູ້ຈັກກັບເວັບໄຊນີ້ ເນື່ອງຈາກເປັນຄົນມັກໄປທ່ຽວຕະຫຼອດ ແຕ່ກໍມີຫຼາຍຄັ້ງທີ່ມັກຫຼົງ, ໄປບໍ່ຖືກເວລາແລະພົບບັນຫາຕ່າງໆ. ແຕ່ພໍໄດ້ຮູ້ຈັກກັບເວັບໄຊ ຂ້າພະເຈົ້າປານໄດ້ບັນລຸນິພານເລີຍ ເພາະມັນມີຂໍ້ມູນຄົບທຸກຢ່າງສໍາລັບສາຍທ່ຽວ. ນອກຈາກນີ້,ເວັບໄຊນີ້ຍັງຊ່ວຍສົ່ງເສີມດ້ານການທ່ອງທ່ຽວຢູ່ບ້ານເຮົາໄດ້ອີກ. ໂອ! ຈັງແມ່ນຄັກ!</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>ອຈ ສິດທິພອນ ພັນດາລາ</h3>
+                                <p class = "text">ອຈ ທີ່ປຶກສາປະຈໍາທີມ CEIT SOFTWARE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">ຖ້າຈະໃຫ້ບັນຍາຍເວັບໄຊພາຍໃນຄໍາສັ້ນໆກໍຕ້ອງເວົ້າວ່າ: ສຸດຍອດຫຼາຍ!. ສາຍເລາະສາຍທ່ຽວບໍ່ຄວນພາດສໍາລັບເວັບໄຊນີ້ ບໍ່ວ່າຈະເປັນເລື່ອງສະຖານທີ່ທ່ອງທ່ຽວ,ເລື່ອງອາຫານທີ່ຂຶ້ນຊື່ຂອງແຕ່ລະທີ່,ເລື່ອງຂໍ້ມູນດ້ານການທ່ອງທ່ຽວຕ່າງໆຢູ່ລາວ ເວັບໄຊນີ້ຈັດໜັກຈັດເຕັມໃຫ້ທ່ານ ອັດແໜ້ນໄປດ້ວຍຂໍ້ມູນຕ່າງໆທີ່ທ່ານຫາຢູ່ໃສບໍ່ໄດ້ອີກແລ້ວ.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>ອຈ ໂອບິໂຕະ</h3>
+                                <p class = "text">ສຈ ປະຈໍາພາກວິຊາໄອທີ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Go<span>Go</span>
+                    </a>
+                    <p class = "text">ພວກເຮົາແມ່ນເວັບໄຊການທ່ອງທ່ຽວເຊິ່ງໃຫ້ຂໍ້ມູນຕ່າງໆດ້ານ &nbspການທ່ອງທ່ຽວໃນປະເທດລາວບໍ່ຈະເປັນແນະນໍາກ່ຽວກັບສະຖານທີ່ທ່ອງທ່ຽວ,ອາຫານຂຶ້ນຊື່ຕາມແຕ່ລະທ້ອງຖິ່ນລວມໄປເຖິງຂໍ້ມູນການເດີນທາງດ້ານອື່ນໆອີກ.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>ຕິດຕາມພວກເຮົາໄດ້ທີ່: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>ສະຖານທີ່ຍອດນິຍົມ:</h2>
+                    <ul>
+                        <li><a href = "#">ວັງວຽງ</a></li>
+                        <li><a href = "#">ຫຼວງພະບາງ</a></li>
+                        <li><a href = "#">ນະຄອນຫຼວງວຽງຈັນ</a></li>
+                        <li><a href = "#">ຈໍາປາສັກ</a></li>
+                        <li><a href = "#">ອຸດົມໄຊ</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>ຕິດຕາມເຮົາເພື່ອຮັບຂ່າວສານຕ່າງໆ!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="ອີເມວ" class = "form-control">
+                        <input type = "submit" class = "btn" value = "ຕິດຕາມ">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
